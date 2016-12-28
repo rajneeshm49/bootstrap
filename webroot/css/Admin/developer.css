@@ -1,0 +1,110 @@
+/*==== ADMIN */
+.no-padding{ padding:0px !important; }
+
+.recordStatus.fa-check{ color:green }
+.recordStatus.fa-close{ color:red }
+
+.manageRecords th a{ color:#565050 !important; }
+.manageRecords .fa{ font-size:1.25em;margin-left:5px; }
+.manageRecords .fa-eye{ font-size:1.25em;margin-left:5px; }
+.manageRecords .fa-eye{ color:#008d4c !important; }
+.manageRecords .fa-edit{ color:#337ab7 !important; }
+.manageRecords .fa-trash{ color:#dd4b39 !important; }
+
+.recordsControl button{ margin-right:5px; }
+
+caption.row{ margin:0px; }
+caption .form-control{ width:auto;display:inline-block; }
+caption .input.select{ display:inline-block; }
+
+.recordsControl button{ margin-top:20px }
+
+.col-md-2.head, .col-md-3.head{ text-decoration:none;font-weight:600; }
+
+.box-body .container{ width: 100% !important; }
+.box-body .row{ padding:10px; color:#3f3f3f; }
+
+form .input{ margin-bottom:15px; }
+
+.right-li-btn{ margin-top:8px !important; margin-left:5px !important; }
+.admin-navbar{ background-color:white; }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{ background-color:white; }
+
+.selectAllRecordsLabel{ position: absolute; z-index: 5; top:56px; left: 10%; width: 80%; text-align: center; background: beige; border: 1px solid burlywood; border-radius: 3px; display:none; }
+.selectAllRecordsLabel u{ cursor:pointer; }
+
+
+input[type="file"] {
+border:none;
+width: auto;
+}
+td.actions a.fa{
+	padding-right: 7px;
+}
+td.actions a.fa:last-child{
+	padding-right: 0;
+}
+.back-btn-div {
+	margin-bottom: 10px;
+}
+.chat .item > .comment {
+	margin-left: 55px;
+	margin-top: -40px;
+}
+
+.badge {
+	background-color: transparent;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: 0;
+    text-align: left;
+    
+}
+div#addBadge form#badge-form div.form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+div#addBadge .modal-body {
+	overflow: hidden;
+}
+.dl-horizontal dt {
+    margin-bottom: 20px;
+}
+.form-horizontal .has-feedback .form-control-feedback {
+	right: 10%;
+}
+.has-feedback .form-control {
+	padding: inherit;
+}
+dd.media-dd div.media-div {
+	width: 33%;
+	display: inline-block;
+	padding: 0 10px 30px;
+	vertical-align: top;
+}
+dd.media-dd div.media-div a {
+	display: inline-block;
+	border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    padding: 5px;
+}
+.multiselect.dropdown-toggle.btn.btn-default b.caret {
+float: right!important;
+margin-top: 10px!important;
+position: absolute!important;
+right: 10px!important;
+}
+div.btn-group, .btn-group-vertical {
+    display: block!important;
+}
+.multiselect.dropdown-toggle.btn.btn-default {
+    width: 100%!important;
+text-align: left;
+background-color: transparent;
+}
+ul.multiselect-container.dropdown-menu {
+width: 100%!important;
+margin-top: 34px!important;
+}
+/* ADMIN ====*/

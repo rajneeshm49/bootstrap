@@ -1,0 +1,145 @@
+.responsive-calendar{
+	background:#fbfbfb;
+	}
+.responsive-calendar .controls {
+  text-align: center;
+}
+.responsive-calendar .controls a {
+  cursor: pointer;
+}
+.responsive-calendar .controls h4 {
+  display: inline;
+}
+.responsive-calendar .day-headers{
+ 	background:#c9c8c8;
+  	color:#000000;
+	font-weight:bold;
+}
+.responsive-calendar .day-headers,
+.responsive-calendar .days {
+  font-size: 0;
+}
+.responsive-calendar .day {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  width: 14.285714285714286%;
+  text-align: center;
+  border: 1px #a4a4a4 solid;
+}
+.responsive-calendar .day a {
+  color: #000000;
+  display: block;
+  cursor: pointer;
+  padding: 15% 0 15% 0;
+  /*border: 1px #a4a4a4 solid;*/
+}
+.responsive-calendar .day a:hover {
+  background-color: #eee;
+  text-decoration: none;
+}
+.responsive-calendar .day.header {
+  /*border: 1px #a4a4a4 solid;*/
+  padding: 3% 0 3% 0;
+}
+.responsive-calendar .day.active a {
+  	background-color: #000000 !important;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 70%;
+	padding: 10% 0;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: underline;
+}
+.responsive-calendar .day.active a:hover {
+  background-color: #36a0e2;
+}
+
+.responsive-calendar .day.holiday a {
+  	background-color: #ffffff;
+	color: #ff002a !important;
+	border-radius: 15px;
+	
+	text-align: center;
+	margin: 0 auto;
+}
+.responsive-calendar .day.holiday a:hover {
+  background-color: #36a0e2;
+}
+
+.responsive-calendar .day.timesheet_lsr_than a {
+  	background-color: #ffffff;
+	color: #B97A57 !important;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+.responsive-calendar .day.timesheet_lsr_than a:hover {
+  background-color: #5DBCD2;
+}
+
+.responsive-calendar .day.timesheet_not_filled a {
+  	background-color: #ffffff;
+	color: #0118a4;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+.responsive-calendar .day.timesheet_not_filled a:hover {
+  background-color: #36a0e2;
+}
+
+.responsive-calendar .day.timesheet a {
+  	background-color: #ffffff;
+	color: #007f0c;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+.responsive-calendar .day.timesheet a:hover {
+  background-color: #36a0e2;
+}
+
+
+.responsive-calendar .day.active .not-current {
+  background-color: #8fcaef;
+  color: #ffffff;
+}
+.responsive-calendar .day.active .not-current:hover {
+  background-color: #bcdff5;
+}
+.responsive-calendar .day.not-current a {
+  color: #ddd !important;
+}
+.responsive-calendar .day .badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 1;
+}
+.responsive-calendar .day.green a {
+  	background-color: #007f0c;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 70%;
+	padding: 10% 0;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: underline;
+}
+.responsive-calendar .day.black a {
+  	background-color: #000000;
+	color: #ffffff;
+	border-radius: 50%;
+	width: 70%;
+	padding: 10% 0;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: underline;
+}
+@media (max-width:767px){
+	.responsive-calendar .day{
+		font-size:14px;
+		}
+	}
